@@ -19,7 +19,7 @@ export default function Login() {
         </div>
       </div>
 
-      <div className='w-full bg-gradient-to-tr from-blue-500 to-orange-500 sm:bg-gradient-to-tr sm:from-zinc-200 sm:to-zinc-300 sm:w-8/12 md:w-7/12 lg:w-2/5  flex flex-col items-center justify-center'>
+      <div className='w-full bg-gradient-to-tr from-blue-500 to-orange-500 sm:bg-gradient-to-tr sm:from-zinc-100 sm:to-zinc-200 sm:w-8/12 md:w-7/12 lg:w-2/5  flex flex-col items-center justify-center'>
         <img src="/logo.png" className='h-20' alt="Imagem de uma pessoa correndo" />
         <div className='flex mt-5 mb-[-6px] items-center'>
           <div className='h-[1px] bg-zinc-100 sm:bg-zinc-400 mb-3 sm:mb-2 w-10 mr-2 hover:w-10 transition-all'></div>
