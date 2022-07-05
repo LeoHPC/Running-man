@@ -32,7 +32,7 @@ Além de possuir autenticação com Next-Auth (Google), a plataforma tem duas fu
 A parte de gráficos é voltada para criação de gráficos utilizando a biblioteca "Recharts", onde foi possível criar gráficos modernos, responsivos e personalizáveis, como visto abaixo:
 <img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo02.png" />
 
-Além disso, a aba de notas é responsável por fazer uma chamada à uma fake API, através do Server-Side-Rendering (SSG), a JSON Placeholder, e mostrar esses dados ao usuário através de uma tabela com paginação pelo Ant Design, onde foi possível personalizar respostas a partir dos dados (status de finalizado ou não):
+Além disso, a aba de notas é responsável por fazer uma chamada à uma fake API, através do Server-Side-Rendering (SSG), para o JSON Placeholder, e mostrar esses dados ao usuário através de uma tabela com paginação pelo Ant Design, onde foi possível personalizar respostas a partir dos dados fornecidos (status de finalizado ou não):
 <img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo03.png" />
 
 ## :rocket: Tecnologias
