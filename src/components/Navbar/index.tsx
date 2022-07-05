@@ -11,7 +11,7 @@ export function Navbar({ active }: ActiveLink) {
       <Link className='flex items-center py-1 h-full cursor-pointer' href="/">
         <div className='flex items-center justify-center'>
           <img src="/logo.png" className='cursor-pointer h-12' alt="Imagem de uma pessoa correndo" />
-          <h1 className='hidden sm:flex mt-1 text-zinc-200 uppercase text-lg ml-2'>| running man</h1>
+          <h1 className='hidden sm:flex mt-1 text-zinc-200 uppercase text-lg ml-2 cursor-pointer'>| running man</h1>
         </div>
       </Link>
       <div className='flex items-center mr-1'>
