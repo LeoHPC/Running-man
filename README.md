@@ -49,6 +49,18 @@ Este projeto foi criado com as seguintes tecnologias:
 - Phosphor Icons
 - Highlight Words
 
+<div style="display: inline_block">
+    <img align="center" alt="TypeScript" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
+    <img align="center" alt="ReactJS" height="45" width="45" src="https://github.com/vscode-icons/vscode-icons/blob/master/icons/file_type_reactjs.svg">
+    <img align="center" alt="Nextjs" height="45" width="40" src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" />
+    <img align="center" alt="Next Auth" height="42" width="40" src="https://camo.githubusercontent.com/7500b9cc1d0652febaab82b3a294b3898deb63bcfc23693adcc9c1236c3b9d5b/68747470733a2f2f6e6578742d617574682e6a732e6f72672f696d672f6c6f676f2f6c6f676f2d736d2e706e67" /> 
+    <img align="center" alt="Phosphor Icons" height="42" width="42" src="https://img.stackshare.io/service/5608/13690587.png" /> 
+    <img align="center" alt="Tailwindcss" height="45" width="45" src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" /> 
+    <img align="center" alt="Ant Design" height="40" width="40" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" /> 
+    <img align="center" alt="Phosphor Icons" height="42" width="42" src="https://cdn.iconscout.com/profile-photo/large/phosphor-icons-519903.png?w=400&h=400&updated_at=1618995303" /> 
+    <img align="center" alt="Highlight React Words" height="42" width="42" src="https://cloud.githubusercontent.com/assets/29597/11913937/0d2dcd78-a629-11e5-83e7-6a17b6d765a5.png" /> 
+</div>
+
 ## :mag: Como visualizar
 
 Pelo seu terminal, execute os seguintes comandos para executar a aplicação localmente:
