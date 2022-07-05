@@ -2,7 +2,7 @@ import { useSession } from 'next-auth/react';
 
 import { Navbar } from '../../components/Navbar';
 
-export function Dashboard() {
+export default function Dashboard() {
   const { data: session } = useSession();
 
   return (

@@ -169,7 +169,7 @@ export default function Notes({ users }: UserProps) {
         router.push('/')
       }
     }
-  }, [session, loading]);
+  }, [session, loading, router]);
 
   return (
     <>

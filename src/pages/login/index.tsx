@@ -7,7 +7,7 @@ export default function Login() {
         <div className='w-full items-center pl-[10%] md:pl-[5%] justify-start relative'>
           <img
             className='max-w-xs h-60 hidden sm:flex'
-            src='illustration.svg'
+            src='/illustration.svg'
             alt="Imagem de uma pessoa correndo"
           />
         </div>
@@ -20,7 +20,7 @@ export default function Login() {
       </div>
 
       <div className='w-full bg-gradient-to-tr from-blue-500 to-orange-500 sm:bg-gradient-to-tr sm:from-zinc-200 sm:to-zinc-300 sm:w-8/12 md:w-7/12 lg:w-2/5  flex flex-col items-center justify-center'>
-        <img src="logo.png" className='h-20' alt="" />
+        <img src="/logo.png" className='h-20' alt="Imagem de uma pessoa correndo" />
         <div className='flex mt-5 mb-[-6px] items-center'>
           <div className='h-[1px] bg-zinc-100 sm:bg-zinc-400 mb-3 sm:mb-2 w-10 mr-2 hover:w-10 transition-all'></div>
           <p className='text-zinc-100 sm:text-zinc-400 text-sm'>Faça login para começar</p>
@@ -30,7 +30,7 @@ export default function Login() {
           className='flex px-8 items-center h-11 rounded brightness-110 bg-orange-500 hover:px-10 transition-all'
           onClick={() => signIn('google')}
         >
-          <img className='mr-6' src="google.svg" alt="Logo da Google" />
+          <img className='mr-6' src="/google.svg" alt="Logo da Google" />
           <h1 className='text-zinc-200 pt-2 text-lg'>Entrar com o Google</h1>
         </button>
       </div>

@@ -23,7 +23,7 @@ export default function Graphics(props: string[]) {
         router.push('/')
       }
     }
-  }, [session, loading]);
+  }, [session, loading, router]);
 
   if (loading) {
     return <Loading />
