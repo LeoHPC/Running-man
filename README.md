@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="https://github.com/LeoHPC/Running-man/blob/main/public/logo.png" width="100">
+  <br>
+  Running Man
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="https://running-man-leohpc.vercel.app">Demonstração</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/leohpc/Running-man">
+  <img src="https://img.shields.io/github/issues/leohpc/Running-man">
+  <img src="https://img.shields.io/github/forks/leohpc/Running-man">
+  <img src="https://img.shields.io/github/stars/leohpc/Running-man">
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44">
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center">
+  <a href="#exclamation-sobre">Sobre</a> | <a href="#camera-funcionalidades">Funcionalidades</a> | <a href="#rocket-tecnologias">Tecnologias</a> | <a href="#mag-como-visualizar">Como visualizar</a> | <a href="#memo-licença">Licença</a>
+</p>
+
+<img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo01.png">
+
+## :exclamation: Sobre
+
+Este repositório é destinado a aplicação "Running Man" desenvolvida para aprimorar meus estudos sobre bibliotecas e frameworks modernos e notórios ao mercado atual, tais como Next.js, TailwindCSS, Ant Design, Recharts, dentre outros.
+
+## :camera: Funcionalidades
+
+Além de possuir autenticação com Next-Auth (Google), a plataforma tem duas funcionalidades principais: Gráficos e Notas.
+A parte de gráficos é voltada para criação de gráficos utilizando a biblioteca "Recharts", onde foi possível criar gráficos modernos, responsivos e personalizáveis, como visto abaixo:
+<img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo02.png" />
+
+Além disso, a aba de notas é responsável por fazer uma chamada à uma fake API, através do Server-Side-Rendering (SSG), a JSON Placeholder, e mostrar esses dados ao usuário através de uma tabela com paginação pelo Ant Design, onde foi possível personalizar respostas a partir dos dados (status de finalizado ou não):
+<img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo03.png" />
+
+## :rocket: Tecnologias
+
+Este projeto foi criado com as seguintes tecnologias:
+
+- TypeScript
+- React
+- Next
+- Next Auth
+- Recharts
+- TailwindCSS
+- Ant Design
+- Phosphor Icons
+- Highlight Words
+
+## :mag: Como visualizar
+
+Pelo seu terminal, execute os seguintes comandos para executar a aplicação localmente:
+```shell
+  # Clone o repositório
+  git clone github.com/LeoHPC/Running-man.git
+  
+  # Acesse a pasta do projeto
+  cd running-man
+  
+  # Instale as dependências 
+  npm i
+  
+  # Rode o projeto
+  npm run dev
+  
+  # Acesse http://localhost:3000/
 ```
+Ou, simplesmente, clique <a href="https://running-man-leohpc.vercel.app">aqui</a> para ser redirecionado para o site da aplicação!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: Licença
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Este projeto é licenciado sobre a licença MIT. Veja a [LICENÇA](https://opensource.org/licenses/MIT) para mais informações.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feito com ❤ por Leonardo Henrique :kissing: [Contato](https://www.linkedin.com/in/leonardo-henrique-33a3ab210)
