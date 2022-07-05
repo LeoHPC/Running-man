@@ -20,7 +20,7 @@
   <a href="#exclamation-sobre">Sobre</a> | <a href="#camera-funcionalidades">Funcionalidades</a> | <a href="#rocket-tecnologias">Tecnologias</a> | <a href="#mag-como-visualizar">Como visualizar</a> | <a href="#memo-licença">Licença</a>
 </p>
 
-<img src="https://github.com/LeoHPC/Running-man/blob/main/public/demo01.png">
+<img src="https://github.com/LeoHPC/Running-man/blob/main/public/Demo01.png">
 
 ## :exclamation: Sobre
 
