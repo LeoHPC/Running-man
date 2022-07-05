@@ -9,7 +9,10 @@ export function Navbar({ active }: ActiveLink) {
   return (
     <nav className='bg-gradient-to-l from-blue-500 to-orange-500 h-16 flex justify-between py-2 px-6 z-10'>
       <Link className='flex items-center py-1 h-full cursor-pointer' href="/">
-        <img src="/logo.png" className='cursor-pointer' alt="Imagem de uma pessoa correndo" />
+        <div className='flex items-center justify-center'>
+          <img src="/logo.png" className='cursor-pointer h-12' alt="Imagem de uma pessoa correndo" />
+          <h1 className='hidden sm:flex mt-1 text-zinc-200 uppercase text-lg ml-2'>| running man</h1>
+        </div>
       </Link>
       <div className='flex items-center mr-1'>
         <Link href="/notes">

@@ -17,7 +17,7 @@ export default function Dashboard() {
             referrerPolicy="no-referrer"
           />
         </div>
-        <h1 className='text-3xl mt-2 text-zinc-200 font-bold'>
+        <h1 className='text-3xl mt-2 text-zinc-200 font-bold text-center'>
           Olá, {session?.user?.name}!
         </h1>
         <p className='text-xl mt-[-10px] text-zinc-200 italic text-center'>
